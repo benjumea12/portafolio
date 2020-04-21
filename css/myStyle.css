@@ -1,0 +1,28 @@
+body {
+  background-color: #F8F7FC;
+}
+
+.type-font {
+  font-family: 'Righteous', cursive;
+}
+.oscurecer {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    );
+}
+.gradiente {
+  background-image: linear-gradient(
+    rgba(25, 209, 231, 0.5),
+    rgba(243, 17, 224, 0.5)
+  )
+}
+
+.radius {
+  border-radius: 10px;
+}
+
+.div-img div {
+  padding: 10px 0px;
+}

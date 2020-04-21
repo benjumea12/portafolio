@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Ferias</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/myStyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" type="image/png" href="icono.png" />
+</head>
+<body>
+
+  <div class="parallax-container valign-wrapper oscurecer">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h1 class="header center blue-text text-lighten-4 type-font"><b>Jardín botánico</b></h1>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <div class="container">
+    <p class="flow-text">
+      <br> <a href="index.html"><i class="material-icons">arrow_back</i> Volver</a> <br>
+    </p>
+
+    <div class="row">
+        <div class="col s12 m6">
+            <video class="responsive-video" controls>
+                <source src="images/pitch.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="col s12 m6">
+            <p class="light">Ferias Comerciales es la la solución a un problema que tenían los estudiantes y el SENA en la planeación, desarrollo y terminación de una feria comercial, le permite al SENA controlar y administrar distintas ferias con cada uno de los stands y usuarios que participaran en ella y le permite a los encargados de cada stand tener un sistemas de ventas y facturación para generar informes que posteriormente serán entregados al encargado de la feria de la que está participando.</p>
+            <p class="light"><b>Tecnologias</b>: HTML, CSS, Bootstrap, JavaScript, PHP 7, CodeIgniter, MySQL</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col l8 offset-l2 m12">
+        <img class="materialboxed responsive-img z-depth-5" src="images/ferias.PNG">
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col">
+        <h5 class="header col s12 light"><b>Administra tus ferias</b></h5><br><br><br>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias1.png">
+          </div>
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias2.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h5 class="header col s12 light"><b>Productos y facturacion</b></h5><br><br><br>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias3.png">
+          </div>
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias4.png">
+          </div>
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias5.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h5 class="header col s12 light"><b>Reportes y devoluciones</b></h5><br><br><br>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias7.png">
+          </div>
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias8.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h5 class="header col s12 light"><b>Seguridad</b></h5><br><br><br>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias11.png">
+          </div>
+          <div class="col s12 m6 l4">
+            <img class="materialboxed responsive-img z-depth-2" src="images/ferias10.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br><br><br><br><br><br>
+
+  <footer class="page-footer blue-grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <center><h5 class="white-text">Esteban Benjumea</h5></center>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright blue-grey darken-4">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.materialboxed');
+        var options = {};
+        var instances = M.Materialbox.init(elems, options);
+      });
+
+      // Or with jQuery
+
+      $(document).ready(function(){
+        $('.materialboxed').materialbox();
+      });
+  </script>
+  </body>
+</html>
