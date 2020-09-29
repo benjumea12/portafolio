@@ -3,14 +3,16 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Ferias</title>
+  <title>Ferias Comerciales</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/myStyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://kit.fontawesome.com/25e72d0ead.js" crossorigin="anonymous"></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+  <link href="css/myStyle.css" type="text/css" rel="stylesheet" />
   <link rel="icon" type="image/png" href="icono.png" />
 </head>
 <body>
@@ -19,7 +21,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h1 class="header center blue-text text-lighten-4 type-font"><b>Jardín botánico</b></h1>
+          <h1 class="header center text-white type-font title">Ferias Comerciales</h1>
         </div>
       </div>
     </div>
@@ -27,27 +29,58 @@
   </div>
 
   <div class="container">
-    <p class="flow-text">
-      <br> <a href="index.html"><i class="material-icons">arrow_back</i> Volver</a> <br>
-    </p>
+    <br/>
+    <h5><a href="index.html"><i class="fas fa-arrow-left"></i> Volver</a></h5>
 
     <div class="row">
         <div class="col s12 m6">
-            <video class="responsive-video" controls>
-                <source src="images/pitch.mp4" type="video/mp4">
-            </video>
+          <div class="my-img-border">
+              <div class="my-img black">
+                <video class="responsive-video" controls>
+                  <source src="images/pitch.mp4" type="video/mp4">
+                </video>
+              </div>
+          </div>
         </div>
         <div class="col s12 m6">
-            <p class="light">Ferias Comerciales es la la solución a un problema que tenían los estudiantes y el SENA en la planeación, desarrollo y terminación de una feria comercial, le permite al SENA controlar y administrar distintas ferias con cada uno de los stands y usuarios que participaran en ella y le permite a los encargados de cada stand tener un sistemas de ventas y facturación para generar informes que posteriormente serán entregados al encargado de la feria de la que está participando.</p>
-            <p class="light"><b>Tecnologias</b>: HTML, CSS, Bootstrap, JavaScript, PHP 7, CodeIgniter, MySQL</p>
+          <br/>
+            <p><b>Ferias Comerciales</b> es un proyecto educativo desarrollado por un grupo de estudiantes del tecnologo ADSI (análisis y desarrollo de sistemas informáticos)  del SENA, es la la solución a un problema que tenían los estudiantes y el SENA en el proceso de desarrollo de una feria, desde su planeación hasta su terminación y entrega de resultados.</p> 
         </div>
     </div>
 
     <br>
 
     <div class="row">
+      <h3>Descripción</h3>
+      <p><b>Ferias Comerciales</b> le permite a los directivos del SENA planear un feria con anticipación, los encargados de realizar la feria podrán agregar los participantes con sus stands y  al momento de realizar la feria darles acceso a un sistema de  facturación, también podrán generar informes del estado de sus ventas.</p>
+      
+      <h3>Deasarrollo</h3>
+      <p>El proyecto consta de una aplicación web en la cual realizamos todo el proceso de desarrollo de software desde la recolección de requerimiento hasta su presentación, fue  desarrollada con el lenguaje PHP utilizando el framework CodeIgniter y  como base de datos utilizamos SQL.</p>
+      <p>Actualmente hay un prototipo desarrollado de la aplicación web que utiliza componentes UI propios desarrollados con la librería de administración de estilos Styled-Components sin utilizar componentes UI externos.</p>
+
+      <div class="tab">
+        <h5>Proyecto</h5>
+        <div class="tab">
+          <p>Aquí podrás encontrar el proyecto terminado <a href="https://benjumeac.000webhostapp.com/ferias/" target="_blank">ver proyecto</a></p>
+        </div>
+        <h5>Usuarios</h5>
+        <div class="tab">
+          <ul>
+            <li><b>Administrador</b>: Email: admin@mail.com | Pass: secret</li>
+            <li><b>Usuario feria</b>: Email: userferia@mail.com | Pass: secret</li>
+            <li><b>Usuario stand</b>: Email: userstand@mail.com | Pass: secret</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3>Galeria</h3>
+
+    <br>
+
+    <div class="row">
       <div class="col l8 offset-l2 m12">
-        <img class="materialboxed responsive-img z-depth-5" src="images/ferias.PNG">
+        <img class="materialboxed responsive-img my-image" src="images/ferias.PNG">
       </div>
     </div>
 
@@ -58,10 +91,10 @@
         <h5 class="header col s12 light"><b>Administra tus ferias</b></h5><br><br><br>
         <div class="row">
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias1.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias1.png">
           </div>
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias2.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias2.png">
           </div>
         </div>
       </div>
@@ -72,13 +105,13 @@
         <h5 class="header col s12 light"><b>Productos y facturacion</b></h5><br><br><br>
         <div class="row">
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias3.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias3.png">
           </div>
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias4.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias4.png">
           </div>
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias5.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias5.png">
           </div>
         </div>
       </div>
@@ -89,10 +122,10 @@
         <h5 class="header col s12 light"><b>Reportes y devoluciones</b></h5><br><br><br>
         <div class="row">
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias7.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias7.png">
           </div>
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias8.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias8.png">
           </div>
         </div>
       </div>
@@ -103,10 +136,10 @@
         <h5 class="header col s12 light"><b>Seguridad</b></h5><br><br><br>
         <div class="row">
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias11.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias11.png">
           </div>
           <div class="col s12 m6 l4">
-            <img class="materialboxed responsive-img z-depth-2" src="images/ferias10.png">
+            <img class="materialboxed responsive-img my-image" src="images/ferias10.png">
           </div>
         </div>
       </div>
@@ -115,38 +148,60 @@
   </div>
 
   <br><br><br><br><br><br>
+    <!-- Modal Structure -->
 
-  <footer class="page-footer blue-grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <center><h5 class="white-text">Esteban Benjumea</h5></center>
-        </div>
+    <div class="my-footer">
+      <h5 class="center text-white type-font">Esteban Benjumea Castrillón</h5>
+      <div class="social social-fixed">
+        <div><a class="modal-trigger"href="#gmail"><i class="far fa-envelope"></i></a></div>
+        <div><a class="modal-trigger"href="#whatsapp"><i class="fab fa-whatsapp"></i></a></div>
+        <div><a class="modal-trigger"href="https://www.linkedin.com/in/esteban-benjumea-castrill%C3%B3n-9834271b3/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
       </div>
     </div>
-    <div class="footer-copyright blue-grey darken-4">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+  
+    <div id="whatsapp" class="modal">
+      <div class="modal-content">
+        <h4>WhatsApp</h4>
+        <h5>+57 310 824 6838</h5>
       </div>
     </div>
-  </footer>
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.materialboxed');
-        var options = {};
-        var instances = M.Materialbox.init(elems, options);
+  
+    <div id="gmail" class="modal">
+      <div class="modal-content">
+        <h4>Gmail</h4>
+        <h5>benjumeac12@gmail.com</h5>
+      </div>
+    </div>
+  
+  
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+  
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems, options);
+    });
+  
+    // Or with jQuery
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
+      $(window).on("scroll", function() {
+          var scrollHeight = $(document).height();
+          var scrollPosition = $(window).height() + $(window).scrollTop();
+          if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
+            $(".social").removeClass("social-fixed");
+            $(".social").addClass("social-center");
+          }else {
+            $(".social").removeClass("social-center");
+            $(".social").addClass("social-fixed");
+          }
       });
-
-      // Or with jQuery
-
-      $(document).ready(function(){
-        $('.materialboxed').materialbox();
-      });
-  </script>
-  </body>
-</html>
+    </script>
+  
+    </body>
+  </html>
+  
